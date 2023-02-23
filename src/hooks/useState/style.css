@@ -1,0 +1,24 @@
+.btn {
+    width: 80px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn_inc {
+    background: lightgreen;
+}
+.btn_dec {
+    background: lightcoral;
+}
+.btn_title {
+    width: 150px;
+    background: lightslategrey;
+}
+.pre_formatter {
+    text-align: left;
+    margin: 20px auto;
+    width: 180px;
+}
