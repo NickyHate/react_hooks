@@ -1,10 +1,9 @@
-import React, {useContext} from "react";
-import {AlertContext} from "./index";
+import React from "react";
+import {useAlert} from "./context";
 
 export default function Alert() {
-    let alert = useContext(AlertContext)
-
-    if (!alert) {
+    let {visible} = useAlert()
+    if (!visible) {
         return null
     }
     return (
