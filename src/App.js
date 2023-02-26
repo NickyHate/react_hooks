@@ -5,12 +5,20 @@ import TestUseMemo from "./hooks/useMemo";
 import TestUseCallback from "./hooks/useCallback";
 import TestUseContext from "./hooks/useContext";
 import TestUseReducer from "./hooks/useReducer";
+import TestCustomHooks from "./hooks/customHooks";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <TestUseReducer/>
+        {/*<TestUseState/>*/}
+        {/*<TestUseEffect/>*/}
+        {/*<TestUseRef/>*/}
+        {/*<TestUseMemo/>*/}
+        {/*<TestUseCallback/>*/}
+        {/*<TestUseContext/>*/}
+        {/*<TestUseReducer/>*/}
+        <TestCustomHooks/>
     </div>
   );
 }
