@@ -8,6 +8,8 @@ import TestUseReducer from "./hooks/useReducer";
 import TestCustomHooks from "./hooks/customHooks";
 import './App.css';
 
+//Посмотреть примеры кастомных хуков можно тут: https://usehooks.com/
+
 function App() {
   return (
     <div className="App">
